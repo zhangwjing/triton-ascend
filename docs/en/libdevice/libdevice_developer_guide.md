@@ -44,6 +44,7 @@ triton.language.extra.cann.libdevice.abs(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`, `float32`
 
 Return Value: `tl.tensor`, containing the absolute value of the input parameter.
@@ -65,6 +66,7 @@ triton.language.extra.cann.libdevice.acos(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the inverse cosine of the input parameter, in the range \[0, π] radians.
@@ -86,6 +88,7 @@ triton.language.extra.cann.libdevice.acosh(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the inverse hyperbolic cosine of the input parameter, in the range \[0, +∞].
@@ -107,6 +110,7 @@ triton.language.extra.cann.libdevice.add_rd(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -129,6 +133,7 @@ triton.language.extra.cann.libdevice.add_rn(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -151,6 +156,7 @@ triton.language.extra.cann.libdevice.add_ru(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -173,6 +179,7 @@ triton.language.extra.cann.libdevice.add_rz(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -195,6 +202,7 @@ triton.language.extra.cann.libdevice.asin(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the inverse sine of the input parameter, in the range \[-π/2, π/2] radians.
@@ -216,6 +224,7 @@ triton.language.extra.cann.libdevice.asinh(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the inverse hyperbolic sine of the input parameter.
@@ -237,6 +246,7 @@ triton.language.extra.cann.libdevice.atan(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the inverse tangent of the input parameter, in the range \[-π/2, π/2] radians.
@@ -258,6 +268,7 @@ triton.language.extra.cann.libdevice.atan2(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -280,6 +291,7 @@ triton.language.extra.cann.libdevice.atanh(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the inverse hyperbolic tangent of the input parameter, in the range \[-1, 1].
@@ -301,6 +313,7 @@ triton.language.extra.cann.libdevice.brev(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 
 Return Value: `tl.tensor`, containing the 32-bit integer with reversed bit order.
@@ -336,6 +349,7 @@ triton.language.extra.cann.libdevice.byte_perm(x, y, s, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 - y: `int32`
 - s: `int32`
@@ -359,6 +373,7 @@ triton.language.extra.cann.libdevice.cbrt(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the cube root of the input parameter.
@@ -380,6 +395,7 @@ triton.language.extra.cann.libdevice.ceil(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the ceiling result.
@@ -401,6 +417,7 @@ triton.language.extra.cann.libdevice.clz(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 
 Return Value: `tl.tensor`, containing the number of leading zeros in the input parameter. Range: \[0, 32].
@@ -422,6 +439,7 @@ triton.language.extra.cann.libdevice.copysign(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -444,6 +462,7 @@ triton.language.extra.cann.libdevice.cos(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the cosine of the input parameter.
@@ -465,6 +484,7 @@ triton.language.extra.cann.libdevice.cosh(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the hyperbolic cosine of the input parameter.
@@ -486,6 +506,7 @@ triton.language.extra.cann.libdevice.cospi(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the value of cos(π × x).
@@ -507,6 +528,7 @@ triton.language.extra.cann.libdevice.cyl_bessel_i0(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the modified Bessel function of the first kind, order 0, of the input parameter.
@@ -528,6 +550,7 @@ triton.language.extra.cann.libdevice.cyl_bessel_i1(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the modified Bessel function of the first kind, order 1, of the input parameter.
@@ -549,6 +572,7 @@ triton.language.extra.cann.libdevice.div_rd(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -571,6 +595,7 @@ triton.language.extra.cann.libdevice.div_rn(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -593,6 +618,7 @@ triton.language.extra.cann.libdevice.div_ru(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -615,6 +641,7 @@ triton.language.extra.cann.libdevice.div_rz(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -637,6 +664,7 @@ triton.language.extra.cann.libdevice.erf(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the error function of the input parameter.
@@ -658,6 +686,7 @@ triton.language.extra.cann.libdevice.erfc(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the complementary error function of the input parameter.
@@ -679,6 +708,7 @@ triton.language.extra.cann.libdevice.erfcinv(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the inverse complementary error function of the input parameter.
@@ -700,6 +730,7 @@ triton.language.extra.cann.libdevice.erfcx(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the scaled complementary error function of the input parameter.
@@ -721,6 +752,7 @@ triton.language.extra.cann.libdevice.erfinv(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the inverse error function of the input parameter.
@@ -742,6 +774,7 @@ triton.language.extra.cann.libdevice.exp(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of e raised to the power of x.
@@ -763,6 +796,7 @@ triton.language.extra.cann.libdevice.exp10(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of 10 raised to the power of x.
@@ -784,6 +818,7 @@ triton.language.extra.cann.libdevice.exp2(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of 2 raised to the power of x.
@@ -805,6 +840,7 @@ triton.language.extra.cann.libdevice.expm1(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of e raised to the power of x, minus 1.
@@ -826,6 +862,7 @@ triton.language.extra.cann.libdevice.fast_cosf(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of the fast approximate cosine function.
@@ -847,6 +884,7 @@ triton.language.extra.cann.libdevice.fast_dividef(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -869,6 +907,7 @@ triton.language.extra.cann.libdevice.fast_exp10f(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of the fast approximate base-10 exponential function.
@@ -890,6 +929,7 @@ triton.language.extra.cann.libdevice.fast_expf(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of the fast approximate exponential function.
@@ -911,6 +951,7 @@ triton.language.extra.cann.libdevice.fast_log10f(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of the fast approximate base-10 logarithm function.
@@ -932,6 +973,7 @@ triton.language.extra.cann.libdevice.fast_log2f(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of the fast approximate base-2 logarithm function.
@@ -953,6 +995,7 @@ triton.language.extra.cann.libdevice.fast_logf(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of the fast approximate natural logarithm function.
@@ -974,6 +1017,7 @@ triton.language.extra.cann.libdevice.fast_powf(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -996,6 +1040,7 @@ triton.language.extra.cann.libdevice.fast_sinf(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of the fast approximate sine function.
@@ -1017,6 +1062,7 @@ triton.language.extra.cann.libdevice.fast_tanf(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of the fast approximate tangent function.
@@ -1038,6 +1084,7 @@ triton.language.extra.cann.libdevice.fdim(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -1060,6 +1107,7 @@ triton.language.extra.cann.libdevice.fdiv(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -1082,6 +1130,7 @@ triton.language.extra.cann.libdevice.ffs(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 
 Return Value: `tl.tensor`, containing the index of the lowest bit set to 1. Range: \[0, 32].
@@ -1103,6 +1152,7 @@ triton.language.extra.cann.libdevice.finitef(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, returns True if the input is finite, otherwise returns False.
@@ -1118,6 +1168,7 @@ Supported Compilation Mode: SIMT
 Reverses the order of tensor elements along the specified dimension.
 
 Input Types:
+
 - ptr: `tensor`
 - dim: `int32`
 
@@ -1140,6 +1191,7 @@ triton.language.extra.cann.libdevice.float2int_rd(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 32-bit integer.
@@ -1161,6 +1213,7 @@ triton.language.extra.cann.libdevice.float2int_rn(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 32-bit integer.
@@ -1182,6 +1235,7 @@ triton.language.extra.cann.libdevice.float2int_ru(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 32-bit integer.
@@ -1203,6 +1257,7 @@ triton.language.extra.cann.libdevice.float2int_rz(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 32-bit integer.
@@ -1224,6 +1279,7 @@ triton.language.extra.cann.libdevice.float2ll_rd(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 64-bit integer.
@@ -1245,6 +1301,7 @@ triton.language.extra.cann.libdevice.float2ll_rn(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 64-bit integer.
@@ -1266,6 +1323,7 @@ triton.language.extra.cann.libdevice.float2ll_ru(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 64-bit integer.
@@ -1287,6 +1345,7 @@ triton.language.extra.cann.libdevice.float2ll_rz(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 64-bit integer.
@@ -1308,6 +1367,7 @@ triton.language.extra.cann.libdevice.float2uint_rd(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 32-bit unsigned integer.
@@ -1329,6 +1389,7 @@ triton.language.extra.cann.libdevice.float2uint_rn(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 32-bit unsigned integer.
@@ -1350,6 +1411,7 @@ triton.language.extra.cann.libdevice.float2uint_ru(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 32-bit unsigned integer.
@@ -1371,6 +1433,7 @@ triton.language.extra.cann.libdevice.float2uint_rz(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 32-bit unsigned integer.
@@ -1392,6 +1455,7 @@ triton.language.extra.cann.libdevice.float2ull_rd(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 64-bit unsigned integer.
@@ -1413,6 +1477,7 @@ triton.language.extra.cann.libdevice.float2ull_rn(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 64-bit unsigned integer.
@@ -1434,6 +1499,7 @@ triton.language.extra.cann.libdevice.float2ull_ru(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 64-bit unsigned integer.
@@ -1455,6 +1521,7 @@ triton.language.extra.cann.libdevice.float2ull_rz(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the converted 64-bit unsigned integer.
@@ -1476,6 +1543,7 @@ triton.language.extra.cann.libdevice.float_as_int(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the bit pattern of the floating-point number reinterpreted as a 32-bit integer.
@@ -1497,6 +1565,7 @@ triton.language.extra.cann.libdevice.float_as_uint(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the bit pattern of the floating-point number reinterpreted as a 32-bit unsigned integer.
@@ -1518,6 +1587,7 @@ triton.language.extra.cann.libdevice.floor(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the floor result.
@@ -1539,6 +1609,7 @@ triton.language.extra.cann.libdevice.fma(x, y, z, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 - z: `float32`
@@ -1562,6 +1633,7 @@ triton.language.extra.cann.libdevice.fma_rd(x, y, z, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 - z: `float32`
@@ -1585,6 +1657,7 @@ triton.language.extra.cann.libdevice.fma_rn(x, y, z, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 - z: `float32`
@@ -1608,6 +1681,7 @@ triton.language.extra.cann.libdevice.fma_ru(x, y, z, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 - z: `float32`
@@ -1631,6 +1705,7 @@ triton.language.extra.cann.libdevice.fma_rz(x, y, z, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 - z: `float32`
@@ -1654,6 +1729,7 @@ triton.language.extra.cann.libdevice.fmod(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -1676,6 +1752,7 @@ triton.language.extra.cann.libdevice.gamma(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the gamma function of the input parameter.
@@ -1697,6 +1774,7 @@ triton.language.extra.cann.libdevice.hadd(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 - y: `int32`
 
@@ -1719,6 +1797,7 @@ triton.language.extra.cann.libdevice.hypot(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -1741,6 +1820,7 @@ triton.language.extra.cann.libdevice.ilogb(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the unbiased exponent of the input parameter.
@@ -1762,6 +1842,7 @@ triton.language.extra.cann.libdevice.int2float_rd(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -1783,6 +1864,7 @@ triton.language.extra.cann.libdevice.int2float_rn(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -1804,6 +1886,7 @@ triton.language.extra.cann.libdevice.int2float_ru(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -1825,6 +1908,7 @@ triton.language.extra.cann.libdevice.int2float_rz(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -1846,6 +1930,7 @@ triton.language.extra.cann.libdevice.int_as_float(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 
 Return Value: `tl.tensor`, containing the bit pattern of the 32-bit integer reinterpreted as a floating-point number.
@@ -1867,6 +1952,7 @@ triton.language.extra.cann.libdevice.isfinited(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, returns True if the input is finite, otherwise returns False.
@@ -1888,6 +1974,7 @@ triton.language.extra.cann.libdevice.isinf(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, returns True if the input is infinity, otherwise returns False.
@@ -1909,6 +1996,7 @@ triton.language.extra.cann.libdevice.isnan(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, returns True if the input is NaN, otherwise returns False.
@@ -1930,6 +2018,7 @@ triton.language.extra.cann.libdevice.j0(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the Bessel function of the first kind of order 0 of the input parameter.
@@ -1951,6 +2040,7 @@ triton.language.extra.cann.libdevice.j1(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the Bessel function of the first kind of order 1 of the input parameter.
@@ -1972,6 +2062,7 @@ triton.language.extra.cann.libdevice.jn(n, x, _builder=None)
 ```
 
 Input Types:
+
 - n: `int32`
 - x: `float32`
 
@@ -1994,6 +2085,7 @@ triton.language.extra.cann.libdevice.ldexp(x, exp, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - exp: `int32`
 
@@ -2016,6 +2108,7 @@ triton.language.extra.cann.libdevice.lgamma(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the natural logarithm of the absolute value of the gamma function for input x.
@@ -2037,6 +2130,7 @@ triton.language.extra.cann.libdevice.ll2float_rd(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int64`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -2058,6 +2152,7 @@ triton.language.extra.cann.libdevice.ll2float_rn(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int64`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -2079,6 +2174,7 @@ triton.language.extra.cann.libdevice.ll2float_ru(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int64`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -2100,6 +2196,7 @@ triton.language.extra.cann.libdevice.ll2float_rz(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int64`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -2121,6 +2218,7 @@ triton.language.extra.cann.libdevice.llrint(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the rounded 64-bit integer.
@@ -2142,6 +2240,7 @@ triton.language.extra.cann.libdevice.llround(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the rounded 64-bit integer.
@@ -2163,6 +2262,7 @@ triton.language.extra.cann.libdevice.log(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the natural logarithm of input x.
@@ -2184,6 +2284,7 @@ triton.language.extra.cann.libdevice.log10(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the base-10 logarithm of input x.
@@ -2205,6 +2306,7 @@ triton.language.extra.cann.libdevice.log1p(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of log(1 + x).
@@ -2226,6 +2328,7 @@ triton.language.extra.cann.libdevice.log2(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the base-2 logarithm of input x.
@@ -2247,6 +2350,7 @@ triton.language.extra.cann.libdevice.logb(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the exponent value of the input parameter.
@@ -2268,6 +2372,7 @@ triton.language.extra.cann.libdevice.mul24(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 - y: `int32`
 
@@ -2290,6 +2395,7 @@ triton.language.extra.cann.libdevice.mul_rd(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -2312,6 +2418,7 @@ triton.language.extra.cann.libdevice.mul_rn(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -2334,6 +2441,7 @@ triton.language.extra.cann.libdevice.mul_ru(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -2356,6 +2464,7 @@ triton.language.extra.cann.libdevice.mul_rz(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -2378,6 +2487,7 @@ triton.language.extra.cann.libdevice.mulhi(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 - y: `int32`
 
@@ -2400,6 +2510,7 @@ triton.language.extra.cann.libdevice.nearbyint(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the nearest integer.
@@ -2421,6 +2532,7 @@ triton.language.extra.cann.libdevice.nextafter(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -2443,6 +2555,7 @@ triton.language.extra.cann.libdevice.norm3d(x, y, z, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 - z: `float32`
@@ -2466,6 +2579,7 @@ triton.language.extra.cann.libdevice.norm4d(x, y, z, w, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 - z: `float32`
@@ -2490,6 +2604,7 @@ triton.language.extra.cann.libdevice.normcdf(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the cumulative distribution function of the standard normal distribution.
@@ -2511,6 +2626,7 @@ triton.language.extra.cann.libdevice.normcdfinv(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the inverse of the cumulative distribution function of the standard normal distribution.
@@ -2532,6 +2648,7 @@ triton.language.extra.cann.libdevice.popc(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 
 Return Value: `tl.tensor`, containing the number of bits set to 1 in x. Range: \[0, 32].
@@ -2553,6 +2670,7 @@ triton.language.extra.cann.libdevice.pow(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -2575,6 +2693,7 @@ triton.language.extra.cann.libdevice.rcbrt(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the reciprocal cube root of x.
@@ -2596,6 +2715,7 @@ triton.language.extra.cann.libdevice.rcp_rd(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing 1 / x.
@@ -2617,6 +2737,7 @@ triton.language.extra.cann.libdevice.rcp_rn(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing 1 / x.
@@ -2638,6 +2759,7 @@ triton.language.extra.cann.libdevice.rcp_ru(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing 1 / x.
@@ -2659,6 +2781,7 @@ triton.language.extra.cann.libdevice.rcp_rz(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing 1 / x.
@@ -2680,6 +2803,7 @@ triton.language.extra.cann.libdevice.reciprocal(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing 1 / x.
@@ -2701,6 +2825,7 @@ triton.language.extra.cann.libdevice.relu(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the result of the rectified linear unit.
@@ -2722,6 +2847,7 @@ triton.language.extra.cann.libdevice.remainder(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -2744,6 +2870,7 @@ triton.language.extra.cann.libdevice.rhadd(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 - y: `int32`
 
@@ -2766,6 +2893,7 @@ triton.language.extra.cann.libdevice.rhypot(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -2788,6 +2916,7 @@ triton.language.extra.cann.libdevice.rint(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the nearest integer to x.
@@ -2809,6 +2938,7 @@ triton.language.extra.cann.libdevice.rnorm3d(x, y, z, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 - z: `float32`
@@ -2832,6 +2962,7 @@ triton.language.extra.cann.libdevice.rnorm4d(x, y, z, w, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 - z: `float32`
@@ -2856,6 +2987,7 @@ triton.language.extra.cann.libdevice.round(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the nearest integer to x.
@@ -2877,6 +3009,7 @@ triton.language.extra.cann.libdevice.rsqrt(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the reciprocal square root of x.
@@ -2898,6 +3031,7 @@ triton.language.extra.cann.libdevice.rsqrt_rn(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the reciprocal square root of x.
@@ -2919,6 +3053,7 @@ triton.language.extra.cann.libdevice.sad(x, y, z, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 - y: `int32`
 - z: `int32`
@@ -2942,6 +3077,7 @@ triton.language.extra.cann.libdevice.saturatef(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the saturated value of x, in the range \[+0.0, 1.0].
@@ -2963,6 +3099,7 @@ triton.language.extra.cann.libdevice.scalbn(x, n, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - n: `int32`
 
@@ -2985,6 +3122,7 @@ triton.language.extra.cann.libdevice.signbit(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the sign bit of x.
@@ -3006,6 +3144,7 @@ triton.language.extra.cann.libdevice.sin(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the sine of input x.
@@ -3027,6 +3166,7 @@ triton.language.extra.cann.libdevice.sinh(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the hyperbolic sine of input x.
@@ -3048,6 +3188,7 @@ triton.language.extra.cann.libdevice.sinpi(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the value of sin(π × x).
@@ -3069,6 +3210,7 @@ triton.language.extra.cann.libdevice.sqrt(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the square root of x.
@@ -3090,6 +3232,7 @@ triton.language.extra.cann.libdevice.sqrt_rd(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the square root of x.
@@ -3111,6 +3254,7 @@ triton.language.extra.cann.libdevice.sqrt_rn(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the square root of x.
@@ -3132,6 +3276,7 @@ triton.language.extra.cann.libdevice.sqrt_ru(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the square root of x.
@@ -3153,6 +3298,7 @@ triton.language.extra.cann.libdevice.sqrt_rz(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the square root of x.
@@ -3174,6 +3320,7 @@ triton.language.extra.cann.libdevice.sub_rd(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -3196,6 +3343,7 @@ triton.language.extra.cann.libdevice.sub_rn(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -3218,6 +3366,7 @@ triton.language.extra.cann.libdevice.sub_ru(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -3240,6 +3389,7 @@ triton.language.extra.cann.libdevice.sub_rz(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 - y: `float32`
 
@@ -3262,6 +3412,7 @@ triton.language.extra.cann.libdevice.tan(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the tangent of input x.
@@ -3283,6 +3434,7 @@ triton.language.extra.cann.libdevice.tanh(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the hyperbolic tangent of input x.
@@ -3304,6 +3456,7 @@ triton.language.extra.cann.libdevice.tgamma(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the gamma function of the input parameter.
@@ -3325,6 +3478,7 @@ triton.language.extra.cann.libdevice.trunc(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the truncation result.
@@ -3346,6 +3500,7 @@ triton.language.extra.cann.libdevice.uint2float_rd(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `uint32`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -3367,6 +3522,7 @@ triton.language.extra.cann.libdevice.uint2float_rn(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `uint32`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -3388,6 +3544,7 @@ triton.language.extra.cann.libdevice.uint2float_ru(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `uint32`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -3409,6 +3566,7 @@ triton.language.extra.cann.libdevice.uint2float_rz(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `uint32`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -3430,6 +3588,7 @@ triton.language.extra.cann.libdevice.uint_as_float(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `uint32`
 
 Return Value: `tl.tensor`, containing the bit pattern of the 32-bit unsigned integer reinterpreted as a floating-point number.
@@ -3451,6 +3610,7 @@ triton.language.extra.cann.libdevice.ull2float_rd(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `uint64`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -3472,6 +3632,7 @@ triton.language.extra.cann.libdevice.ull2float_rn(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `uint64`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -3493,6 +3654,7 @@ triton.language.extra.cann.libdevice.ull2float_ru(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `uint64`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -3514,6 +3676,7 @@ triton.language.extra.cann.libdevice.ull2float_rz(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `uint64`
 
 Return Value: `tl.tensor`, containing the converted floating-point number.
@@ -3535,6 +3698,7 @@ triton.language.extra.cann.libdevice.umulhi(x, y, _builder=None)
 ```
 
 Input Types:
+
 - x: `int32`
 - y: `int32`
 
@@ -3557,6 +3721,7 @@ triton.language.extra.cann.libdevice.y0(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the Bessel function of the second kind of order 0 of the input parameter.
@@ -3578,6 +3743,7 @@ triton.language.extra.cann.libdevice.y1(x, _builder=None)
 ```
 
 Input Types:
+
 - x: `float32`
 
 Return Value: `tl.tensor`, containing the Bessel function of the second kind of order 1 of the input parameter.
@@ -3599,6 +3765,7 @@ triton.language.extra.cann.libdevice.yn(n, x, _builder=None)
 ```
 
 Input Types:
+
 - n: `int32`
 - x: `float32`
 
