@@ -244,7 +244,7 @@ def test_add(SIZE, BLOCK_SIZE):
 
 修改完后，可用`pytest`运行用例，执行成功即表明迁移成功。
 
-```diff
+```bash
 pytest test_add.py
 ```
 
