@@ -38,7 +38,6 @@
 .. toctree::
    :hidden:
    :titlesonly:
-   :maxdepth: 2
    :caption: 快速开始
    
    版本说明 <release_note>
@@ -56,10 +55,9 @@
 .. toctree::
    :hidden:
    :titlesonly:
-   :maxdepth: 3
    :caption: 开发指南
 
-   Triton-Ascend算子开发 <examples/01_vector_add_example>
+   调用新开发算子 <examples/01_vector_add_example>
    Triton-Ascend算子迁移 <migration_guide/index>
    Triton-Ascend算子调试与调优 <debug_guide/index>
    典型算子样例<examples/index>
@@ -85,18 +83,18 @@
    :titlesonly:
    :caption: 贡献指南
 
-   community/CONTRIBUTING_zh.md
-   community/roadmap_guide.md
+   贡献指南 <community/CONTRIBUTING_zh>
+   RodMap指导 <community/roadmap_guide>
 
 .. toctree::
    :hidden:
    :titlesonly:
    :caption: 社区治理
 
-   community/CODE_OF_CONDUCT.md
-   community/SECURITYNOTE_zh.md
-   community/GOVERNANCE_zh.md
-   community/community_technical_meeting.md
-   community/release_policy.md
-   community/MAINTAINERS.md
-   community/contributor.md
+   贡献者公约 <community/CODE_OF_CONDUCT>
+   治理机制 <community/GOVERNANCE_zh>
+   技术例会 <community/community_technical_meeting>
+   版本发布策略 <community/release_policy>
+   Maintainers <community/MAINTAINERS>
+   Contributors <community/contributor>
+   安全声明 <community/SECURITYNOTE_zh>
